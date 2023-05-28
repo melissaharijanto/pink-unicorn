@@ -1,7 +1,7 @@
 // This file contains the boilerplate to execute your React app.
 // If you want to modify your application's content, start in "index.js"
 
-import {ReactInstance} from 'react-360-web';
+import { ReactInstance } from "react-360-web";
 
 const init = (bundle, parent, options = {}) => {
   const r360 = new ReactInstance(bundle, parent, {
@@ -17,7 +17,7 @@ const init = (bundle, parent, options = {}) => {
   );
 
   // Load the initial environment
-  r360.compositor.setBackground(r360.getAssetURL('classroom.jpg'));
+  r360.compositor.setBackground(r360.getAssetURL("/classroom/classroomcartoon.jpg"));
 }
 
-window.React360 = {init};
+window.React360 = { init };
