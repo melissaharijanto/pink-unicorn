@@ -6,7 +6,7 @@ import {
   View,
 } from 'react-360';
 
-export default class pink_unicorn extends React.Component {
+export default class Classroom360 extends React.Component {
   render() {
     return (
       <View style={styles.panel}>
@@ -40,4 +40,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('pink_unicorn', () => pink_unicorn);
+AppRegistry.registerComponent('Classroom360', () => Classroom360);
