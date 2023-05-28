@@ -5,7 +5,7 @@
  * @param {HTMLElement} parent - The parent element where the app will be rendered.
  * @param {Object} options - Custom options for the ReactInstance.
  */
-const init = (bundle, parent, options = {}) => {
+function init(bundle, parent, options = {}) {
   /**
    * Represents a React 360 instance.
    *
@@ -13,20 +13,35 @@ const init = (bundle, parent, options = {}) => {
    * @name ReactInstance
    */
   const r360 = new ReactInstance(bundle, parent, {
-    // Add custom options here
     fullScreen: true,
+    // Add custom options here
     ...options,
   });
 
   /**
-   * Renders the app content to the default cylinder surface.
+   * Renders the app content to the specified surface.
    *
    * @param {ReactElement} rootElement - The root element of the React app.
-   * @param {Surface} surface - The default surface to render the app content.
+   * @param {Surface} surface - The surface to render the app content.
    */
   r360.renderToSurface(
-    r360.createRoot('Classroom360', { /* initial props */ }),
+    r360.createRoot("AppContent", {
+      /* initial props */
+    }),
     r360.getDefaultSurface()
+  );
+
+  /**
+   * Renders the app content to the specified location.
+   *
+   * @param {ReactElement} rootElement - The root element of the React app.
+   * @param {Location} location - The location to render the app content.
+   */
+  r360.renderToLocation(
+    r360.createRoot("Classroom360", {
+      /* initial props */
+    }),
+    r360.getDefaultLocation()
   );
 
   /**
@@ -34,8 +49,10 @@ const init = (bundle, parent, options = {}) => {
    *
    * @param {string} assetURL - The URL of the background image asset.
    */
-  r360.compositor.setBackground(r360.getAssetURL("/classroom/classroomcartoon.jpg"));
-};
+  r360.compositor.setBackground(
+    r360.getAssetURL("classroom/classroomcartoon.jpg")
+  );
+}
 
 /**
  * The global object for the React 360 app.
