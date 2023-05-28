@@ -5,7 +5,7 @@ import style from "./style";
 const Title = () => {
   return (
     <View style={style.view}>
-      <Text style={style.text}>Find your lesson</Text>
+      <Text style={style.text}>Welcome to Classroom360!</Text>
     </View>
   );
 };
