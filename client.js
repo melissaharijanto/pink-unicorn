@@ -1,3 +1,4 @@
+import { ReactInstance, Surface } from "react-360-web";
 /**
  * Initializes the React 360 application.
  *
