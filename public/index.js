@@ -43,8 +43,8 @@
 
 import React from "react";
 import { AppRegistry, View } from "react-360";
-import { AppContent } from "./components";
-import { withAppContext } from "./providers";
+import { AppContent } from "../components";
+import { withAppContext } from "../providers";
 
 const Classroom360 = withAppContext(() => (
   <View
