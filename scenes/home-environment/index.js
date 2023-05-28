@@ -5,7 +5,7 @@ import { Title, Menu, Lessons } from "./components";
 const HomeEnvironment = () => (
     <View>
         <Menu>
-            <Title>Choose your classroom</Title>
+            <Title />
             <Lessons />
         </Menu>
     </View>
