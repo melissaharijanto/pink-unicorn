@@ -10,5 +10,8 @@ export default compose(
   hideIfHome
 )(({ selectedLesson }) => {
   const text = lessons[selectedLesson - 1].mantra;
-  return <Text style={style.text}>{text}</Text>;
+  return <Text style={[style.text, { 
+    backgroundColor: lessons[selectedLesson - 1].headingColor,
+    color: lessons[selectedLesson - 1].textColor
+  }]}>{text}</Text>;
 });

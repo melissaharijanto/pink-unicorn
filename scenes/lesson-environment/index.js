@@ -5,15 +5,16 @@ import { Mantra, HomeButton } from "./components";
 const LessonEnvironment = () => (
   <View
     style={{
+      width: 1000,
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      transform: [{ translate: [150, 0, -100] }],
       marginTop: 80,
+      paddingBottom: 40,
     }}
   >
-    <HomeButton />
     <Mantra />
+    <HomeButton />
   </View>
 );
 

@@ -2,10 +2,12 @@ import { StyleSheet } from "react-360";
 
 export default StyleSheet.create({
   text: {
-    backgroundColor: "transparent",
-    color: "#29ECCE",
     fontSize: 50,
-    fontWeight: "500",
+    fontWeight: "600",
     textAlign: "center",
+    paddingLeft: 50,
+    paddingRight: 50,
+    borderRadius: 35,
+    marginBottom: 20,
   },
 });
