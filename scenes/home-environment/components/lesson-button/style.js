@@ -2,9 +2,10 @@ import { StyleSheet } from "react-360";
 
 export default StyleSheet.create({
   text: {
-    backgroundColor: "#29ECCE",
+    backgroundColor: `${colors.three}`,
     textAlign: "center",
-    color: "white",
+    color: `${colors.one}`,
     marginTop: 30,
-  },
+    borderRadius: 20,
+  }
 });

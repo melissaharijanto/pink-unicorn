@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-360";
+import colors from "../../../../colors";
 
 export default StyleSheet.create({
   view: {
@@ -7,11 +8,14 @@ export default StyleSheet.create({
     padding: 20,
   },
   text: {
-    backgroundColor: "#29ECCE",
+    backgroundColor: `${colors.one}`,
+    color: `${colors.three}`,
+    borderColor: "white",
+    borderRadius: 20,
     fontSize: 50,
-    fontWeight: "400",
+    fontWeight: "600",
     textAlign: "center",
-    paddingLeft: 20,
-    paddingRight: 20,
+    paddingLeft: 50,
+    paddingRight: 50,
   },
 });

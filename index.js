@@ -49,7 +49,7 @@ import { withAppContext } from "./providers";
 const Classroom360 = withAppContext(() => (
   <View
     style={{
-      transform: [{ translate: [0, 0, -2] }],
+      // transform: [{ translate: [0, 0, -2] }],
     }}
   >
     <AppContent />
