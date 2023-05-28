@@ -31,6 +31,16 @@ const lessons = [
     {   id: 4,
         image: "classroom/classroomcartoon.jpg",
         text: "< Back to Home"
+    },
+    {
+        id: 5,
+        mantra: "Welcome to History!",
+        image: "history/military_fortress.avif",
+        audio: null,
+        text: "History",
+        headingColor: `${colors.five}`,
+        textColor: `${colors.three}`,
+        introduction: "Welcome to today's history lesson set within the walls of a military fortress, as we delve into the monumental event of World War II. This fortress serves as a tangible reminder of the tumultuous times that shaped our world. We will uncover the intricate details of the global conflict that engulfed nations and transformed societies. From the rise of fascism to the devastating battles and heroic acts, we will examine the key events, significant figures, and the impact of World War II on a global scale. Get ready to step back in time and explore the complexities and lessons learned from this pivotal moment in history within the walls of this fortress."
     }
 ]
 
