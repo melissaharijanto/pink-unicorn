@@ -65,6 +65,7 @@ Classroom360 would not have been possible without the support and inspiration fr
 1. [Introduction to React360](https://www.digitalocean.com/community/tutorials/react-react-360) for helping us get started.
 2. [Find Your Zen](https://medium.com/hackernoon/virtual-reality-with-react-360-ce24b611f0f5) for the guide on how to grow the complexity of the project.
 3. [ChatGPT](https://openai.com/blog/chatgpt) for the awesome words in this documentation.
+4. [LifeHack 2023](https://lifehack-23.devpost.com/) by [NUS Computing Club](https://nuscomputing.com/) for hosting the cool hackathon so this project is happening! 
 
 ## Contact
 Just post an issue in this repo ;)
