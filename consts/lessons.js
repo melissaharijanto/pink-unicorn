@@ -21,7 +21,7 @@ const lessons = [
     },
     {   id: 3,
         mantra: "Welcome to Astronomy!",
-        image: "singapore/night_view.jpg",
+        image: "astronomy/nasa.jpg",
         audio: null,
         text: "Astronomy",
         headingColor: `${colors.five}`,
