@@ -17,7 +17,7 @@ function init(bundle, parent, options = {}) {
   );
 
   // Load the initial environment
-  r360.compositor.setBackground(r360.getAssetURL('/singapore/mbs.jpeg'));
+  r360.compositor.setBackground(r360.getAssetURL('world/pakistan.jpg'));
 }
 
 window.React360 = {init};
