@@ -25,7 +25,9 @@ export default compose(
       >
         {text}
       </Text>
-      <Text>{lesson.introduction}</Text>
+      <View style={style.view}>
+        <Text style={style.content}>{lesson.introduction}</Text>
+      </View>
     </View>
   );
 });
