@@ -2,6 +2,8 @@
 
 [Classroom360]() aims to revolutionize the traditional classroom experience by providing an immersive virtual environment where students and teachers can interact and collaborate remotely. With Classroom360, geographical barriers are eliminated, allowing students from different locations to come together in a shared virtual space and visit places they have never been able to.
 
+<img width="960" alt="image" src="https://github.com/florentianayuwono/pink-unicorn/assets/76247368/1542e39b-3384-465a-b2aa-93e56d41908d">
+
 Imagine standing on the surface of the Moon🧑‍🚀 during your Astronomy class, traveling back in time to World War II⚔️ during History class, or even stepping inside a human heart🫀 during your Science class!
 
 ## Table of Contents
