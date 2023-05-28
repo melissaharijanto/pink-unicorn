@@ -12,7 +12,7 @@ Imagine standing on the surface of the Moon🧑‍🚀 during your Astronomy cla
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgments)
+- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ## Installation
