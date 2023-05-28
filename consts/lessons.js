@@ -17,6 +17,7 @@ const lessons = [
         text: "Science",
         headingColor: `${colors.three}`,
         textColor: `${colors.one}`,
+        introduction: "Welcome to today's science lesson in the laboratory! The laboratory is a place where scientific exploration comes to life. Here, we will delve into the world of hands-on experimentation, observation, and discovery. As scientists, we will don our lab coats, safety goggles, and gloves to explore various scientific phenomena. From conducting chemical reactions to analyzing microscopic organisms, the laboratory provides us with a controlled environment to investigate and understand the intricacies of the natural world. Get ready to engage in exciting experiments, develop critical thinking skills, and unlock the wonders of science right here in the laboratory!"
     },
     {   id: 3,
         mantra: "Welcome to Astronomy!",
@@ -25,6 +26,7 @@ const lessons = [
         text: "Astronomy",
         headingColor: `${colors.five}`,
         textColor: `${colors.three}`,
+        introduction: "Welcome to today's astronomy lesson focused on the captivating planet Mars! Known as the \"Red Planet,\" Mars has captivated human imagination for centuries. As we embark on this astronomical journey, we will explore the unique features and mysteries that make Mars a fascinating celestial body. From its rusty red appearance to its intriguing geological formations, Mars offers valuable insights into the potential for extraterrestrial life and the future of human exploration. We will delve into its atmospheric composition, its captivating moons, and the ongoing missions dedicated to unraveling its secrets. Get ready to embark on a cosmic adventure to discover the wonders of Mars!"
     },
     {   id: 4,
         image: "classroom/classroomcartoon.jpg",
