@@ -3,7 +3,7 @@
 
 import { ReactInstance } from "react-360-web";
 
-function init(bundle, parent, options = {}) {
+const init = (bundle, parent, options = {}) => {
   const r360 = new ReactInstance(bundle, parent, {
     // Add custom options here
     fullScreen: true,
@@ -12,9 +12,7 @@ function init(bundle, parent, options = {}) {
 
   // Render your app content to the default cylinder surface
   r360.renderToSurface(
-    r360.createRoot("pink_unicorn", {
-      /* initial props */
-    }),
+    r360.createRoot('Classroom360', { /* initial props */ }),
     r360.getDefaultSurface()
   );
 
