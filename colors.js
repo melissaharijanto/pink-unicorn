@@ -4,4 +4,5 @@ export default colors = {
     three: '#E9C46A',
     four: '#F4A261',
     five: '#E76F51',
+    white: '#FFFFFF',
 };
