@@ -9,9 +9,23 @@ export default compose(
   usingAppContext,
   hideIfHome
 )(({ selectedLesson }) => {
-  const text = lessons[selectedLesson - 1].mantra;
-  return <Text style={[style.text, { 
-    backgroundColor: lessons[selectedLesson - 1].headingColor,
-    color: lessons[selectedLesson - 1].textColor
-  }]}>{text}</Text>;
+  const lesson = lessons[selectedLesson - 1];
+  const text = lesson.mantra;
+
+  return (
+    <View>
+      <Text
+        style={[
+          style.text,
+          {
+            backgroundColor: lesson.headingColor,
+            color: lesson.textColor,
+          },
+        ]}
+      >
+        {text}
+      </Text>
+      <Text>{lesson.introduction}</Text>
+    </View>
+  );
 });
