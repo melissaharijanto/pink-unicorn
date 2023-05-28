@@ -2,12 +2,13 @@ import colors from "../colors"
 
 const lessons = [
     {   id: 1,
-        mantra: "Welcome to History!",
-        image: "world/maldives.jpg",
+        mantra: "Welcome to Geography!",
+        image: "world/mexico.jpg",
         audio: null,
-        text: "History",
+        text: "Geography",
         headingColor: `${colors.five}`,
         textColor: `${colors.three}`,
+        introduction: "Welcome to today's geography lesson focused on Mexico! Mexico, located in North America, is a vibrant and culturally rich country known for its diverse landscapes and fascinating history. From the iconic Mayan ruins of Chichen Itza to the stunning beaches of Cancun, Mexico offers a wide range of geographical features to explore. We will delve into the country's physical geography, including its mountain ranges, deserts, and coastal regions. Additionally, we will examine Mexico's political and cultural geography, exploring its states, major cities, and the customs and traditions that shape its unique identity. Get ready for an exciting journey through the geography of Mexico!"
     },
     {   id: 2,
         mantra: "Welcome to Science!",
