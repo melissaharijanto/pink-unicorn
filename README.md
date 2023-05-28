@@ -57,7 +57,7 @@ For detailed code-level documentation, you can visit this [website](https://pink
 We really appreciate contributions to enhance Classroom360 to make it even more powerful and user-friendly. Simply fork this repo and unleash your creative power!🚀
 
 ## License
-It is free! Use it however you like, as long as it is for greater good🫶🏿.
+It is free! Use it however you like, as long as it is for the greater good🫶🏿.
 
 ## Acknowledgements
 Classroom360 would not have been possible without the support and inspiration from the following sources:
