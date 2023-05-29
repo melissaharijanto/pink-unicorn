@@ -2,10 +2,11 @@ import React from "react";
 import { StyleSheet, View } from "react-360";
 import ButtonContent from "./toggle-button-content"
 import { withAppContext } from "../../providers";
+import ButtonTrigger from "./toggle-button-trigger";
 
 const ToggleButton = () => (
    <View style={style.view}>
-        <ButtonContent />
+        <ButtonTrigger />
    </View>
 );
 
