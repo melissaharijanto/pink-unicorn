@@ -19,12 +19,28 @@ function init(bundle, parent, options = {}) {
     ...options,
   });
 
+  const myCylinderSurface = new Surface(
+    4096, /* width */
+    600, /* height */
+    Surface.SurfaceShape.Cylinder /* shape */
+  );
+
+  myCylinderSurface.setDensity(4680);
+
   /**
    * Renders the app content to the specified surface.
    *
    * @param {ReactElement} rootElement - The root element of the React app.
    * @param {Surface} surface - The surface to render the app content.
    */
+  r360.renderToSurface(
+    r360.createRoot("ToggleButton", {
+      /* initial props */
+    }),
+    myCylinderSurface
+    // r360.getDefaultSurface()
+  );
+
   r360.renderToSurface(
     r360.createRoot("AppContent", {
       /* initial props */
