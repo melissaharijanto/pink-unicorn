@@ -30,5 +30,7 @@ export default StyleSheet.create({
     fontSize: 20,
     paddingLeft: 50,
     paddingRight: 50,
+    color: `${colors.white}`,
+    fontWeight: "600"
   }
 });
