@@ -18,7 +18,7 @@ export default StyleSheet.create({
     color: `${colors.three}`,
     borderColor: "white",
     borderRadius: 35,
-    fontSize: 50,
+    fontSize: 40,
     fontWeight: "600",
     textAlign: "center",
     paddingLeft: 50,
