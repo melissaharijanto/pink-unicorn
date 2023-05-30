@@ -2,6 +2,12 @@ import React from "react";
 import { View } from "react-360";
 import { Mantra, HomeButton } from "./components";
 
+/**
+ * Represents the lesson environment.
+ *
+ * @function LessonEnvironment
+ * @returns {JSX.Element} The JSX element representing the lesson environment.
+ */
 const LessonEnvironment = () => (
   <View
     style={{

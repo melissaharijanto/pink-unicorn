@@ -1,9 +1,13 @@
 import React from "react";
 import { StyleSheet, View } from "react-360";
-import ButtonContent from "./toggle-button-content"
-import { withAppContext } from "../../providers";
 import ButtonTrigger from "./toggle-button-trigger";
 
+/**
+ * The ToggleButton component.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered ToggleButton component.
+ */
 const ToggleButton = () => (
    <View style={style.view}>
         <ButtonTrigger />

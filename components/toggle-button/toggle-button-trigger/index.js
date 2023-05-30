@@ -1,15 +1,24 @@
 import React from "react";
-import { View, Text, Image } from "react-360";
+import { View, Image } from "react-360";
 import style from "./style";
-import { Environment, asset, NativeModules, VrButton } from "react-360";
+import { asset, VrButton } from "react-360";
 import ButtonContent from "../toggle-button-content";
 
+/**
+ * The ButtonTrigger component.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered ButtonTrigger component.
+ */
 class ButtonTrigger extends React.Component {
   constructor() {
     super();
     this.state = { isOpen: false };
   }
   render() {
+    /**
+     * Toggles the isOpen state.
+     */
     const toggle = () => this.setState({ isOpen: !this.state.isOpen });
 
     return (

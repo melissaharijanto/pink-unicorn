@@ -1,8 +1,13 @@
 import React from "react";
-import { View, Text, Image } from "react-360";
+import { View, Text } from "react-360";
 import style from "./style";
-import { Environment, asset, NativeModules, VrButton } from "react-360";
 
+/**
+ * The ButtonContent component.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered ButtonContent component.
+ */
 class ButtonContent extends React.Component {
   constructor() {
     super();

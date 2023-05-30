@@ -5,10 +5,15 @@ import { hideIfHome, usingAppContext } from "../../../../providers";
 import { compose } from "recompose";
 import style from "./style";
 
-export default compose(
-  usingAppContext,
-  hideIfHome
-)(({ selectedLesson }) => {
+/**
+ * Represents the lesson component.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @param {number} props.selectedLesson - The selected lesson index.
+ * @returns {JSX.Element} The JSX element representing the lesson component.
+ */
+const LessonComponent = ({ selectedLesson }) => {
   const lesson = lessons[selectedLesson - 1];
   const text = lesson.mantra;
 
@@ -30,4 +35,9 @@ export default compose(
       </View>
     </View>
   );
-});
+};
+
+export default compose(
+  usingAppContext,
+  hideIfHome
+)(LessonComponent);
