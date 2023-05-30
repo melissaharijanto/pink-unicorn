@@ -3,6 +3,12 @@ import { StyleSheet, View } from "react-360";
 import { HomeEnvironment, LessonEnvironment } from "../../scenes";
 import { withAppContext } from "../../providers";
 
+/**
+ * The AppContent component.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered AppContent component.
+ */
 const AppContent = withAppContext(() => (
    <View style={style.view}>
         <HomeEnvironment />
